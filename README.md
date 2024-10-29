@@ -10,4 +10,6 @@ Repro steps:
 Expected result:
 Errors show up in Sentry Dashboard when it's enabled.
 
-Actual reusult: Errors do not show on Sentry Dashboard no matter the setting.
+Actual result: 
+Errors do not show on Sentry Dashboard no matter the setting.
+
