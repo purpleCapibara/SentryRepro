@@ -13,3 +13,4 @@ Errors show up in Sentry Dashboard when it's enabled.
 Actual result: 
 Errors do not show on Sentry Dashboard no matter the setting.
 
+If you uncomment `enabled` property in the entire `sentry.ts` file and only modify sample rates and other properties it seems to be working correctly. It is possible to change it during runtime without having to restart app's bundle.
